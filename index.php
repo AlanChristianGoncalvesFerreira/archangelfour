@@ -37,7 +37,7 @@
 <div id="container_sobremim">
     
     <div id="figure">
-    <img src="image/alanchristian.png" alt="Alan Christian"><br>
+    <img src="image/ac.png" alt="Alan Christian"><br>
     <button type="button">Currículo</button>    
 </div>
     <div id="article">
