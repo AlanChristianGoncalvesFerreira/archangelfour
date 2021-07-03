@@ -93,7 +93,7 @@ LAYOUTS , IMPRESSOS EM GERAL </span>
     </ul>
     <ul>
         <li>
-        <img src="image/icone-3d.png" alt="3D">
+        <img src="image/icone3.png" alt="3D">
             <p>Modelagem 3D </br> 
                 <span>PERSONAGENS , CÉNÁRIOS , ASSETS </span>
 
