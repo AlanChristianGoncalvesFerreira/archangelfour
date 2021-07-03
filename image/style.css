@@ -1,0 +1,242 @@
+
+body{background-color: black;
+font-family:Orator std, Arial;}
+header{ width:100%;
+        background: red;}
+nav {
+    height: 80px;
+    background: rgb(0, 0, 0);
+
+}
+#menu{
+    margin: 0 0 0 45%;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+.logo{
+    float: left;}
+#menuhamburguer{
+    font-size: 49px;
+    color: white;
+    font-weight: bold;
+    }
+
+#menuverti {
+    width: 49%;
+    height: 583px;
+    margin: 0 0 0 25%;
+    position: absolute;
+    background: rgb(255, 255, 255);
+  
+            }
+#menuverti ul{width: 100%;    min-width: 300px;
+    height: 252px;margin: 0 auto;
+    display: table;}
+#menuverti li{ width: 136px;
+    height: 131px; float: left;list-style:none ;}
+#menuverti li img{width:70px; height:64px;}
+.behance{   }
+ .menu-bar{
+           overflow:hidden;
+            display:none;
+            position:absolute;
+        
+           
+        
+        }        
+ .menuativa-show{display: block;  }
+
+
+
+#slide-one{
+ width: 100%;
+ height: 52%;
+ background-image: url("image/slideone.png");
+ background-size:100%;
+ background-repeat:no-repeat;
+ animation-name: slide;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  0%   { background-image: url("image/slideone.png");
+ background-size:100%;
+ background-repeat:no-repeat;}
+ 10%{ background-image: url("image/slidetwo.png");
+     background-size: 100%;
+     background-repeat: no-repeat;
+
+
+
+ }
+}
+
+#container_sobremim{
+ width:100%;
+ background-color: rgb(0, 0, 0);
+ 
+ padding: 5px 0 23px 0;
+    display: flex;
+    color: white;
+}
+#container_sobremim #figure{
+ width: 0%;   
+ float: left;
+
+ margin:auto;
+
+}
+
+#container_sobremim button{
+    width: 294px;
+    height: 45px;
+    border-radius: 29px;
+    background-color: eda407;
+    font-size: 24px;
+    margin: 13px 0 0 48px;
+    color: white;
+}
+#container_sobremim #article{
+      float: left;
+   
+      width: 475px;
+    margin:0 auto;
+}
+
+#container_sobremim #article h1{
+    font-size: 51px;
+
+}
+
+#container_sobremim #article p{
+        font-size: 16px;
+
+}
+
+#container_servicos{
+ background-color: white;
+ width:100%;
+ height: 300px;
+ padding:10px;
+ display: table;
+
+}
+
+#container_servicos h1{
+    font-size: 44px;
+    margin: 10px 0 0 0;
+    text-align: center;  
+    color: black;
+    padding: 31px;
+
+}
+
+#listas_servicos{
+    margin: 0 auto;
+    position: relative;
+    display: table;
+
+}
+
+#container_servicos ul{     
+    width: 345px;
+    height: 200px;
+    padding: initial;
+    float: left;
+}
+#container_servicos li{ 
+    width: 343px;
+    height: 100px;
+    list-style: none;
+    padding: 7px;
+    display: flex;
+
+
+}
+#container_servicos li img {
+    width: 72px;
+    height: 60px;
+    float:left; position: relative;}
+#container_servicos li p { padding: 4px;     font-size: 21px;
+    margin: 3px 0 0 27px;
+}
+#container_servicos li span{font-size:13px;margin: 11px 0 0 0;
+    display: block;}
+
+#container_cliente{width:100%; height: 300px; background-color: #e1a911;display:table;padding: 7px; }
+#container_cliente h1{font-size: 44px;
+    margin: 10px 0 0 0;
+    text-align: center;  
+    color: rgb(255, 255, 255);
+    padding: 31px;}
+#container_cliente ul{
+    width: 614px;
+    height: 100px;
+    
+    display: flex;
+    margin: auto;
+    padding: initial;
+}
+#container_cliente li{
+    float: left;
+    width: 296px;
+    height: 91px;
+    list-style: none;
+    padding: inherit;
+    background-size: 292%;
+    margin: 0 0 0 15px;
+
+}
+.onofre{background-image: url("image/sprint-clientes.png");
+        background-repeat: no-repeat;
+        background-position: 21px -3px;
+        
+
+}
+.nutrisami{ background-image: url("image/sprint-clientes.png");
+    background-repeat: no-repeat;
+    background-position: -83px 1px;
+
+}
+.agenciachoque{ background-image: url("image/sprint-clientes.png");
+    background-repeat: no-repeat;
+    background-position: -196px -9px;}
+.jonathananjos{ background-image: url("image/sprint-clientes.png");
+    background-repeat: no-repeat;
+    background-position: -9px -84px;}
+.tadellasfood{ background-image: url("image/sprint-clientes.png");
+    background-repeat: no-repeat;
+    background-position: -128px -92px;}
+
+
+#container_contato{ width:100%; height: 500px; background-color: black; padding: 7px;display: table;}    
+#container_contato h1{
+    font-size: 44px;
+    margin: 10px 0 0 0;
+    text-align: center;  
+    color: rgb(255, 255, 255);
+    padding: 31px;
+}
+ #formulario{ margin: 0 0 0 203px;display: block;float: left;}   
+
+ #container_contato p{color:white;font-size: 24px;margin: 198px 0 0 0;}
+
+@media only screen and (min-width: 825px) {
+    #slide-one{ height:32%;}
+   
+
+}
+@media only screen and (max-width: 824px) { 
+    #slide-one{ height:12%;}
+    #formulario{ margin: 0 0 0 -35;}
+    #listas_servicos {
+        margin: 0 0 0 129px;}
+}
+@media only screen and (max-width: 360px) {
+ #slide-one{ height:12%;}
+ #formulario{ margin: 0 0 0 -2px;}
+
+}
+
