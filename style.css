@@ -234,8 +234,7 @@ nav {
 @media only screen and (max-width: 824px) { 
     #slide-one{ height:12%;}
     #formulario{ width:100%;}
-    #listas_servicos {
-        margin: 0 0 0 54px;}
+    
       
         #container_cliente ul{  left: 0%;}
         #container_cliente li {
@@ -265,6 +264,14 @@ nav {
 @media only screen and (max-width: 360px) {
  #slide-one{ height:12%;}
  #formulario{ margin: 0 0 0 -2px;}
-
+ #listas_servicos {
+    margin: 0 0 0 9px;}
 }
+
+@media only screen and (min-width: 400px) {
+    #slide-one{ height:12%;}
+    #formulario{ margin: 0 0 0 -2px;}
+    #listas_servicos {
+       margin: 0 0 0 9px;}
+   }
 
