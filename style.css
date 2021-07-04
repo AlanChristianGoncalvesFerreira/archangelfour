@@ -25,9 +25,10 @@ nav {
 #menuverti {
     width: 49%;
     height: 583px;
-    margin: 0 0 0 25%;
+    margin: 0 0 0 13%;
     position: absolute;
     background: rgb(255, 255, 255);
+    min-width: 327px;
   
             }
 #menuverti ul{width: 100%;    min-width: 300px;
