@@ -90,6 +90,9 @@ nav {
 
 }
 
+#container_sobremim img{    width: 100%;
+    min-width: 353px;}
+
 #container_sobremim button{
     width: 294px;
     height: 45px;
