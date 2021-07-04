@@ -116,14 +116,7 @@ LAYOUTS , IMPRESSOS EM GERAL </span>
 
 <div id="container_cliente">
         <h1> Clientes</h1></br>
- <ul>
-    <li class="onofre"></li>
-    <li class="nutrisami"></li>
-    <li class="agenciachoque"></li>
-    <li class="jonathananjos"></li>
-    <li class="tadellasfood"></li>
-    
- </ul>
+ <img src="image/sprint-clientes.png">
 
 </div>
 

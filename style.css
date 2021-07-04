@@ -171,44 +171,13 @@ nav {
     text-align: center;  
     color: rgb(255, 255, 255);
     padding: 31px;}
-#container_cliente ul{
-    width: 100%;
-    height: 100px;
-    left: 26%;
+#container_cliente img{margin: 0 auto;
     position: relative;
-    display: flex;
-    margin: auto;
-    padding: initial;
-}
-#container_cliente li{
-    float: left;
-    width: 8%;
-    height: 91px;
-    list-style: none;
-    padding: inherit;
-    margin: 0 0 0 15px;
+    display: block;
+    width: 45%;}
 
-}
-.onofre{background-image: url("image/sprint-clientes.png");
-        background-repeat: no-repeat;
-        background-position: 21px -3px;
-        
 
-}
-.nutrisami{ background-image: url("image/sprint-clientes.png");
-    background-repeat: no-repeat;
-    background-position: -100px 1px;
 
-}
-.agenciachoque{ background-image: url("image/sprint-clientes.png");
-    background-repeat: no-repeat;
-    background-position: -250px -9px;}
-.jonathananjos{ background-image: url("image/sprint-clientes.png");
-    background-repeat: no-repeat;
-    background-position: -9px -98px;}
-.tadellasfood{ background-image: url("image/sprint-clientes.png");
-    background-repeat: no-repeat;
-    background-position: -163px -105px;}
 
 
 #container_contato{ width:100%; min-height: 500px; background-color: black; padding: 7px;}    
@@ -235,43 +204,26 @@ nav {
     #slide-one{ height:12%;}
     #formulario{ width:100%;}
     
-      
-        #container_cliente ul{  left: 0%;}
-        #container_cliente li {
-        background-size:294%;
-        height: 70px;
-        width:20%;
-      
-
-
-
-        } 
-        .agenciachoque {
-    
-            background-position: -153px -9px;}   
-            .nutrisami {
-                background-position: -61px 1px; }
-                
-                .jonathananjos {
-                    background-position: -3px -65px;    
 }
-
-.tadellasfood {
-
-    background-position: -98px -68px;
-
-}
+      
+      
 @media only screen and (max-width: 360px) {
  #slide-one{ height:12%;}
  #formulario{ margin: 0 0 0 -2px;}
  #listas_servicos {
     }
+    #container_cliente img {
+        width: 100%;
+    }  
 }
 
 @media only screen and (min-width: 400px) {
     #slide-one{ height:12%;}
     #formulario{ margin: 0 0 0 -2px;}
-    #listas_servicos {
-    }
+    #container_cliente img {
+        
+    }  
+    
+
    }
 
