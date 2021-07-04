@@ -95,7 +95,7 @@ nav {
     border-radius: 29px;
     background-color: eda407;
     font-size: 24px;
-    margin: 13px 0 0 48px;
+    margin: 69px 0 0 48px;
     color: white;
 }
 #container_sobremim #article{
@@ -195,7 +195,7 @@ nav {
     display: contents;
     float: left;}
 
-@media only screen and (min-width: 825px) {
+@media only screen and (min-width: 825px) {  
     #slide-one{ height:32%;}
    
 
@@ -203,7 +203,7 @@ nav {
 @media only screen and (max-width: 824px) { 
     #slide-one{ height:12%;}
     #formulario{ width:100%;}
-    
+   
 }
       
       
@@ -215,14 +215,15 @@ nav {
     #container_cliente img {
         width: 100%;
     }  
+    #menu {
+        margin: 0 0 0 34%;}
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (mix-width: 400px) {
    
     #formulario{ margin: 0 0 0 -2px;}
-    #container_cliente img {
-        
-    }  
+    #menu { margin: 0 0 0 34%; }
+    
     
 
    }
