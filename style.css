@@ -100,7 +100,7 @@ nav {
 }
 #container_sobremim #article{
       float: left;
-   
+      text-shadow: 2px -1px black;
       width: 475px;
     margin:0 auto;
 }
