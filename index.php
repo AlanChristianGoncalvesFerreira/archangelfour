@@ -38,7 +38,7 @@
     
     <div id="figure">
     <img src="image/ac.png" alt="Alan Christian"><br>
-    <button type="button">Currículo</button>    
+    <button type="button"><a href="https://www.linkedin.com/in/alanchristiangoncalvesferreira/" target="_blank">Currículo</a></button>    
 </div>
     <div id="article">
      <h1>Sobre mim </h1>
